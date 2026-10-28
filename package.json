@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-irs-afr",
+  "version": "0.1.0",
+  "description": "IRS Applicable Federal Rates (AFR) and the Section 7520 rate.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-irs-afr": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "irs-afr"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-irs-afr.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-8232c37076fb839322fe91e0d6e4c52349798008cc147057f88747d0ccac34bf",
+    "sourceCommit": "f54ad77e789f27fe393978f9c080b5b18c87bb4f"
+  }
+}
