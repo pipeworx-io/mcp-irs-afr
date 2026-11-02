@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-irs-afr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IRS Applicable Federal Rates (AFR) and the Section 7520 rate.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "irs-afr",
     "gatewaySlug": "irs-afr",
-    "sourceHash": "v1-d051f81278847d3a6b02228982482e7c05f22dee15fd801f037e6b2a31c86db3",
-    "sourceCommit": "305e2cd138cb71158e9c1e664ea0e6739bd40801"
+    "sourceHash": "v1-54cfe656edc468781ae9f13ff390ee0af341d530f63310b9837c68834955e3af",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
